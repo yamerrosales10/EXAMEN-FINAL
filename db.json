@@ -1,0 +1,120 @@
+{
+    "ingredients": [
+        { "id": 1, "name": "Pescado fresco" },
+        { "id": 2, "name": "Limón" },
+        { "id": 3, "name": "Cebolla roja" },
+        { "id": 4, "name": "Ají limo" },
+        { "id": 5, "name": "Culantro" },
+        { "id": 6, "name": "Sal" },
+        { "id": 7, "name": "Pimienta" },
+        { "id": 8, "name": "Camote" },
+        { "id": 9, "name": "Choclo" },
+        { "id": 10, "name": "Carne de res" },
+        { "id": 11, "name": "Ají amarillo" },
+        { "id": 12, "name": "Vinagre" },
+        { "id": 13, "name": "Sillao (salsa de soya)" },
+        { "id": 14, "name": "Papas fritas" },
+        { "id": 15, "name": "Arroz blanco" },
+        { "id": 16, "name": "Pechuga de pollo" },
+        { "id": 17, "name": "Leche evaporada" },
+        { "id": 18, "name": "Pan" },
+        { "id": 19, "name": "Nueces" },
+        { "id": 20, "name": "Ajo" },
+        { "id": 21, "name": "Caldo de pollo" },
+        { "id": 22, "name": "Queso parmesano" },
+        { "id": 23, "name": "Papas" },
+        { "id": 24, "name": "Queso fresco" },
+        { "id": 25, "name": "Galletas saladas" },
+        { "id": 26, "name": "Aceitunas" },
+        { "id": 27, "name": "Huevos duros" },
+        { "id": 28, "name": "Lechuga" },
+        { "id": 29, "name": "Pollo entero" },
+        { "id": 30, "name": "Comino" },
+        { "id": 31, "name": "Ají panca" },
+        { "id": 32, "name": "Cerveza negra" },
+        { "id": 33, "name": "Atún o pollo desmenuzado" },
+        { "id": 34, "name": "Mayonesa" },
+        { "id": 35, "name": "Palta" },
+        { "id": 36, "name": "Corazón de res" },
+        { "id": 37, "name": "Cerveza" },
+        { "id": 38, "name": "Palitos de anticucho" },
+        { "id": 39, "name": "Rocotos" },
+        { "id": 40, "name": "Carne molida" },
+        { "id": 41, "name": "Maní" },
+        { "id": 42, "name": "Cabrito" },
+        { "id": 43, "name": "Yuca" },
+        { "id": 44, "name": "Frejoles" },
+        { "id": 45, "name": "Huevo frito" }
+    ],
+    "foods": [
+        {
+            "id": 1,
+            "name": "Ceviche",
+            "ingredients": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "image": "https://imag.bonviveur.com/ceviche-peruano-de-pescado.jpg"
+        },
+        {
+            "id": 2,
+
+            "name": "Lomo Saltado",
+            "ingredients": [10, 3, 11, 12, 13, 14, 15, 5],
+            "image": "https://i.ytimg.com/vi/sWXRJbGi6yQ/maxresdefault.jpg"
+        },
+        {
+            "id": 3,
+
+            "name": "Ají de Gallina",
+            "ingredients": [16, 11, 17, 18, 19, 3, 20, 21, 22],
+            "image": "https://www.comedera.com/wp-content/uploads/2013/10/aji-de-gallina.jpg"
+        },
+        {
+            "id": 4,
+
+            "name": "Papa a la Huancaína",
+            "ingredients": [23, 11, 24, 17, 25, 26, 27, 28],
+            "image": "https://perudelights.com/wp-content/uploads/2013/07/papa-a-la-huancaina-lista-1024x768.jpg"
+        },
+        {
+            "id": 5,
+
+            "name": "Pollo a la Brasa",
+            "ingredients": [29, 20, 30, 13, 31, 32, 12, 7, 6],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjezA9-4z0byMCywNsi3n3nBDUzsXJW2YaaA&s"
+        },
+        {
+            "id": 6,
+
+            "name": "Causa Limeña",
+            "ingredients": [23, 11, 2, 30, 33, 34, 35, 27, 26],
+            "image": "https://cdn0.recetasgratis.net/es/posts/8/6/2/causa_limena_31268_600.jpg"
+        },
+        {
+            "id": 7,
+
+            "name": "Anticuchos",
+            "ingredients": [36, 31, 20, 12, 37, 30, 6, 7, 38],
+            "image": "https://www.comedera.com/wp-content/uploads/2022/03/Anticucho-shutterstock_185287433.jpg"
+        },
+        {
+            "id": 8,
+
+            "name": "Rocoto Relleno",
+            "ingredients": [39, 40, 3, 20, 41, 24, 17, 27, 23],
+            "image": "https://mojo.generalmills.com/api/public/content/O-OFmxjsVUynqsFBv2xWWQ_gmi_hi_res_jpeg.jpeg?v=48a505e6&t=16e3ce250f244648bef28c5949fb99ff"
+        },
+        {
+            "id": 9,
+
+            "name": "Seco de Cabrito",
+            "ingredients": [42, 3, 11, 31, 5, 32, 20, 43, 15],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUnUy1wODyHzQJqXEuCyvaxi4Sb0b2UuFxgw&s"
+        },
+        {
+            "id": 10,
+
+            "name": "Tacu Tacu",
+            "ingredients": [44, 15, 3, 20, 11, 30, 7, 6, 45],
+            "image": "https://es.cravingsjournal.com/wp-content/uploads/2023/08/tacu-tacu-de-frejoles-5.jpg"
+        }
+    ]
+}
