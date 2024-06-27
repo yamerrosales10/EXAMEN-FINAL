@@ -1,4 +1,4 @@
-# POKEMON
+# COCINA
 
 Instalacion
 
@@ -16,9 +16,8 @@ npm run serve
 ```
 
 xampp
-
+npm run serve
 npm run build
-
-
-ABRIR EN EL PUERTO http://localhost:5173/
+despues
+EN DIST/ el html /cambiar a localhost/cocina/dist/assets/...css tambien al js 
 Es necesario tener node js instalado https://nodejs.org/en
