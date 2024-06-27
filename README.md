@@ -22,8 +22,10 @@ npm run build
 #EN ./dist/ el html /cambiar a localhost/cocina/dist/assets/...css tambien al js 
 #Es necesario tener node js instalado https://nodejs.org/en
 ```
+<br>
 Intento 1
 <img src="./img.png" width="400" height="200"/>
+<br>
 Intento 2
 <img src="./img2.png" width="400" height="200"/>
 
