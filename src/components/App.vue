@@ -5,14 +5,14 @@ import Kitchen from "./Kitchen.vue";
 import Foods from "./Foods.vue";
 import { FoodsApi } from "../apis/foods.api";
 import { IngredientsApi } from "../apis/ingredients.api";
+import { sweetAlert, sweetModal } from "@vigilio/sweet";
 const props = defineProps<{
     foods: FoodsApi[];
     ingredients: IngredientsApi[];
 }>();
 const foods = ref(props.foods);
 const findFood = ref<FoodsApi | null>(null);
-
-function chooseFood(ingredients: number[]) {
+    function chooseFood(ingredients: number[]) {
     const exactMatches: FoodsApi[] = [];
     const partialMatches: FoodsApi[] = [];
 
@@ -31,9 +31,23 @@ function chooseFood(ingredients: number[]) {
         }
     });
 
-    findFood.value = foods.value[0];
+    if (exactMatches.length > 0) {
+        findFood.value = exactMatches[0];
+        console.log("Encontrado: ", exactMatches);
+    } else if (partialMatches.length > 0) {
+        sweetModal({
+            html: `<div>Parecidos, pero no encontrado ingredientes: ${JSON.stringify(
+                partialMatches.map((a) => a.name),
+                null,
+                3
+            )}</div>`,
+        });
+        findFood.value = null;
+    } else {
+        findFood.value = null;
+        sweetAlert({icon:"danger","title":"no se cocinó"})
+    }
 }
-
 </script>
 
 <template>
