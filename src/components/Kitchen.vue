@@ -11,7 +11,7 @@ const ingredients = props.food.ingredients.map(
 <template>
     <div class="w-full">
         <h1 class="text-4xl font-bold text-center">
-            Felicidades has conseguido {{ props.food.name }}
+            Felicidades se ha cocinado {{ props.food.name }}
         </h1>
         <img
             class="w-full h-[150px] object-cover"
